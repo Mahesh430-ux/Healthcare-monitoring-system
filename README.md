@@ -16,3 +16,26 @@ Python
 Flask
 HTML5
 CSS3
+
+Day 2 :-Integrated MySQL Database with Healthcare Analytics System
+📌 Project Progress :-
+Today I integrated a MySQL database into my Healthcare Analytics System. Previously, patient information was stored temporarily in Python lists. I replaced that approach with a real database, allowing patient records to be stored permanently.
+
+✅ Tasks Completed
+Connected Flask application with MySQL database
+Created a healthcare database
+Created a patients table
+Developed a separate db.py file for database connectivity
+Connected Flask routes with MySQL
+Stored patient details using SQL INSERT queries
+Retrieved patient records using SQL SELECT queries
+Displayed registered patients dynamically on the Patient List page
+Verified successful database insertion using MySQL Workbench
+🛠 Technologies Used
+Python
+Flask
+MySQL
+MySQL Workbench
+mysql-connector-python
+HTML
+CSS
