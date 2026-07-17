@@ -39,3 +39,40 @@ MySQL Workbench
 mysql-connector-python
 HTML
 CSS
+
+Day 3 :- Module 5: Medical Reports Management
+
+Completed:
+Added Medical Reports page.
+Integrated Amazon S3 to store uploaded reports.
+Implemented secure report viewing using S3 pre-signed URLs.
+Connected the dashboard with the report management module.
+Tested successful upload and retrieval of medical reports.
+
+* Challenges Faced:
+Fixed TemplateNotFound error.
+Fixed AssertionError by placing all Flask routes before app.run().
+Corrected report rendering to display file names and download links properly.
+
+* Technologies Used:
+Python
+Flask
+Amazon S3
+Boto3
+HTML/CSS
+MySQL
+
+* Project Progress
+Module 1 – Login System
+Module 2 – Dashboard
+Module 3 – Amazon S3 File Upload
+Module 4 – MySQL Patient Management
+Module 5 – Medical Reports Viewer
+
+Bro, you're making really good progress. This project is becoming a strong resume project because it combines:
+
+☁ AWS (S3)
+🗄 MySQL
+🐍 Flask
+🌐 HTML/CSS
+📊 Healthcare Analytics
