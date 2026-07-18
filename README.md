@@ -76,3 +76,33 @@ Bro, you're making really good progress. This project is becoming a strong resum
 🐍 Flask
 🌐 HTML/CSS
 📊 Healthcare Analytics
+
+Day 4 :-Implemented Complete Patient Management (CRUD)
+
+Today I enhanced my Healthcare Analytics & Management System by completing the core CRUD (Create, Read, Update, Delete) operations for patient records using Flask and MySQL.
+
+* Features Implemented :-
+Added Search Patient functionality using Patient ID.
+Implemented Update Patient to edit existing patient information.
+Added Delete Patient with a confirmation prompt.
+Improved patient listing with an Actions column.
+Connected all CRUD operations with the MySQL database.
+Fixed Flask routing and template issues.
+Improved navigation between pages for a smoother user experience.
+
+* Technologies Used :-
+Python
+Flask
+MySQL (PyMySQL)
+HTML5
+CSS3
+Jinja2 Templates
+📌 CRUD Operations Completed
+✅ Create Patient
+✅ Read/View Patients
+✅ Search Patient
+✅ Update Patient
+✅ Delete Patient
+📸 Project Progress
+
+Today's work focused on making the patient management module fully functional with reliable database operations and a cleaner workflow.
