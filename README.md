@@ -106,3 +106,19 @@ Jinja2 Templates
 📸 Project Progress
 
 Today's work focused on making the patient management module fully functional with reliable database operations and a cleaner workflow.
+
+Day 5 :- AWS Cloud Healthcare Management System
+
+Today's progress focused on improving the Healthcare Management System and fixing application issues.
+
+✅ Fixed the Healthcare Analytics dashboard layout and CSS styling.
+✅ Corrected HTML template errors and aligned all dashboard components properly.
+✅ Added spacing and improved the user interface for a cleaner design.
+✅ Fixed analytics chart rendering using Chart.js.
+✅ Resolved Flask routing and template errors.
+✅ Fixed the AWS S3 upload workflow by configuring the correct Lambda trigger.
+✅ Completed testing for patient registration, search, update, delete, and report upload features.
+✅ Verified that analytics charts display patient statistics correctly.
+✅ Completed Module 5 of the project and prepared for the next development phase.
+
+Technologies Used: Python, Flask, HTML, CSS, JavaScript, MySQL, AWS S3, AWS Lambda, Chart.js, Docker, Git & GitHub.
