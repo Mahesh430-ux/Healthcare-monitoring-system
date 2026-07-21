@@ -122,3 +122,34 @@ Today's progress focused on improving the Healthcare Management System and fixin
 ✅ Completed Module 5 of the project and prepared for the next development phase.
 
 Technologies Used: Python, Flask, HTML, CSS, JavaScript, MySQL, AWS S3, AWS Lambda, Chart.js, Docker, Git & GitHub.
+
+Day 6:- AWS S3 Report Management & Event-Driven Automation
+
+* Today's Progress :-
+Today I significantly enhanced my Cloud-Based Healthcare Analytics System by improving the medical report management module and integrating AWS serverless services.
+
+* Features Implemented :-
+Implemented Update Patient Details using MySQL.
+Implemented Delete Patient functionality.
+Fixed Flask routing (BuildError) and URL endpoint issues.
+Improved patient management workflow.
+Added Medical Report Preview for uploaded files.
+Added Download Reports directly from Amazon S3.
+Added Delete Reports from Amazon S3.
+Improved file management UI for medical reports.
+Created an AWS Lambda function.
+Configured Amazon S3 Event Notifications to automatically trigger Lambda whenever a new report is uploaded.
+Successfully verified Lambda execution through Amazon CloudWatch Logs.
+Tested the complete event-driven workflow from Flask → Amazon S3 → AWS Lambda → CloudWatch.
+Started designing the next module to store uploaded report metadata in MySQL for better report management.
+
+* Technologies Used :-
+Python
+Flask
+HTML
+CSS
+MySQL
+Amazon S3
+AWS Lambda
+Amazon CloudWatch
+Boto3
