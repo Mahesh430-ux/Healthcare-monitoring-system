@@ -153,3 +153,25 @@ Amazon S3
 AWS Lambda
 Amazon CloudWatch
 Boto3
+
+Day 6 :- AI Patient Comparison Feature Development
+ Completed
+Added a Compare Patient feature to the Registered Patients page.
+Created a new Flask route (compare) to compare patients with the same name.
+Designed a new compare.html page to display comparison results.
+Integrated Google Gemini AI into the project.
+Configured the Gemini API for AI-powered medical analysis.
+Developed logic to generate AI-based disease comparison and healthcare insights.
+Began testing duplicate patient comparison using unique Patient IDs.
+Identified and started debugging database column mapping issues (patient_name vs actual database column).
+Started improving the user interface for patient comparison.
+
+* Next Steps :-
+Fix database column name mismatch.
+Complete AI disease comparison output.
+Enhance the comparison page with a cleaner layout and better healthcare analytics.
+Commit Message
+Added AI-powered patient comparison feature using Flask and Gemini API
+Created compare page and comparison route
+Integrated Gemini API for disease analysis
+Started debugging database query and UI issues
