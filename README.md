@@ -175,3 +175,10 @@ Added AI-powered patient comparison feature using Flask and Gemini API
 Created compare page and comparison route
 Integrated Gemini API for disease analysis
 Started debugging database query and UI issues
+
+Day  7 :-Patient Search Feature and Database Bug Fixes
+
+* What I Learned Today :-
+Today I improved the patient search functionality in my Cloud-Based Healthcare Management System and worked on resolving database-related issues.
+
+*Topics Covered:-- Implemented patient search functionality using Flask.Used SQL WHERE clause to search patient records. Understood how SQL queries interact with Flask routes.Learned how to handle MySQL OperationalError exceptions.Debugged database schema mismatch issues.Improved error tracing using Flask debug mode.Verified database column names before executing SQL queries.
