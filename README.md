@@ -209,4 +209,24 @@ Next Steps :-
 Enhance the patient comparison feature.
 Integrate AI-based report analysis.
 Improve the dashboard with additional analytics and visualizations.
-Continue testing and optimizing the application.
+Continue testing and optimizing the application       
+
+
+
+Day 9: Patient Comparison Feature Development
+
+Work Completed:
+Implemented the Compare Patient feature in the Healthcare Analytics web application.
+Retrieved patient records from the MySQL database using Flask routes.
+Debugged SQL errors related to incorrect column names and query syntax.
+Fixed duplicate comparison results by improving the comparison logic.
+Successfully displayed the selected patient's information alongside another patient's data for comparison.
+Tested the feature with multiple patient records to ensure accurate output.
+Verified that the comparison module integrates correctly with the existing patient management system.
+
+Technologies Used:
+Python
+Flask
+MySQL
+HTML
+CSS
