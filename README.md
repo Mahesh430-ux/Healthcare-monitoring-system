@@ -208,5 +208,40 @@ The patient management module is now more stable, database operations are functi
 Next Steps :-
 Enhance the patient comparison feature.
 Integrate AI-based report analysis.
-Improve the dashboard with additional analytics and visualizations.
-Continue testing and optimizing the application.
+Improve the dashboard with additional analytics and visualization
+
+
+day 9 :-
+Patient Profile Page | Healthcare Analytics System
+
+Today I successfully implemented the **Patient Profile Page** for my Cloud-Based Healthcare Analytics System.
+
+## ✅ Features Added
+- Created a dedicated **Patient Profile** page.
+- Displayed complete patient information.
+- Added a **Medical History** section.
+- Displayed uploaded medical reports.
+- Integrated viewing of **X-ray, MRI, and CT scan images**.
+- Added **Last Updated Date** to track recent modifications.
+- Improved navigation from the Patient List using the **View** button.
+
+## 🛠️ Technologies Used
+- Python
+- Flask
+- HTML5
+- CSS3
+- MySQL
+- AWS S3
+
+## 📚 What I Learned
+- Building dynamic profile pages using Flask routes.
+- Retrieving and displaying patient-specific data from MySQL.
+- Organizing medical records in a clean and structured layout.
+- Improving navigation and user experience.
+
+## 🎯 Next Goals
+- Add Edit Profile functionality.
+- Create a Medical History Timeline.
+- Display image previews with zoom support.
+- Integrate AI-powered report analysis.
+- Implement role-based access control.
