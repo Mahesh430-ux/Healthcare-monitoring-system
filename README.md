@@ -210,3 +210,29 @@ Enhance the patient comparison feature.
 Integrate AI-based report analysis.
 Improve the dashboard with additional analytics and visualizations.
 Continue testing and optimizing the application.
+
+Day 9 : Patient Profile Page | Healthcare Analytics System
+Today I successfully implemented the **Patient Profile Page** for my Cloud-Based Healthcare Analytics System.
+
+* Features Added :-
+ Created a dedicated **Patient Profile** page.
+ Displayed complete patient information.
+ Added **Medical History** section.
+ Displayed uploaded medical reports.
+ Integrated viewing of **X-ray, MRI, and CT scan images**.
+ Added **Last Updated Date** to track recent modifications.
+ Improved navigation from the Patient List using the **View** button.
+
+* Technologies Used :-
+Python
+ Flask
+HTML5
+ CSS3
+ MySQL
+ AWS S3 (for medical file storage)
+
+* What I Learned :-
+ Building dynamic profile pages using Flask routes.
+ Retrieving and displaying patient-specific data from MySQL.
+ Organizing medical records in a clean and structured layout.
+ Improving user experience with better navigation and data presentation.
