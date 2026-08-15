@@ -309,3 +309,72 @@ Day 11 :- ## 🚀 Healthcare Monitoring System - Development Update
 
 * 📌 Current Status :-
 The core healthcare management system is functional, and the next phase focuses on enhancing AI capabilities, cloud integration, and deployment.
+
+Day 12 :- 
+🚀 Healthcare Analytics System | Project Update
+
+Made further progress on my AI-powered Healthcare Analytics System.
+
+### 🔹 What I've implemented
+
+✅ Patient Registration & Management
+• Register new patients
+• Prevent duplicate Patient IDs
+• View complete patient list
+• Search patients by Patient ID
+• Update patient information
+• Delete patient records
+• Dedicated Patient Profile page
+
+✅ Medical Report Management
+• Upload patient medical reports
+• Support for PDF, TXT, CSV, XLSX, JPG, JPEG and PNG files
+• Store uploaded reports in Amazon S3
+• Generate secure S3 presigned URLs for report access
+
+✅ AI-Powered Analysis
+• PDF report analysis
+• Text analysis
+• CSV/XLSX data analysis
+• Medical image analysis
+• Convert AI-generated Markdown results into HTML
+• Store AI analysis results in the SQLite database
+
+✅ Analytics Dashboard
+• Total patient count
+• Male/Female/Other patient statistics
+• Disease-wise patient statistics
+• Dynamic analytics visualization
+
+✅ AWS Integration
+• Amazon S3 integration for medical report storage
+• Automated file upload workflow
+• Presigned URLs for secure report access
+
+### 🛠️ Tech Stack
+
+Python | Flask | SQLite | Pandas | Amazon S3 | Boto3 | AI/ML | HTML | CSS | JavaScript
+
+### 📌 Current Architecture
+
+Patient Registration
+↓
+Patient Profile
+↓
+Medical Report Upload
+↓
+Local Processing
+↓
+Amazon S3 Storage
+↓
+AI Analysis
+↓
+Analysis Result
+↓
+SQLite Database
+↓
+Analytics Dashboard
+
+I'm continuing to improve the system with a focus on **AI-assisted healthcare analytics, cloud integration, secure medical-data handling, and production-ready deployment**.
+
+#Python #Flask #HealthcareAnalytics #AI #MachineLearning #AWS #AmazonS3 #SQLite #Boto3 #Pandas #CloudComputing #GitHub #SoftwareDevelopment
