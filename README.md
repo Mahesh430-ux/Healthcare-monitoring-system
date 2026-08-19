@@ -378,3 +378,111 @@ Analytics Dashboard
 I'm continuing to improve the system with a focus on **AI-assisted healthcare analytics, cloud integration, secure medical-data handling, and production-ready deployment**.
 
 #Python #Flask #HealthcareAnalytics #AI #MachineLearning #AWS #AmazonS3 #SQLite #Boto3 #Pandas #CloudComputing #GitHub #SoftwareDevelopment
+
+
+
+Day 13 :- 
+
+# 🏥 Healthcare Monitoring System
+
+## 🔧 Database Connection Architecture Improved
+
+Today I improved the database architecture of my **Healthcare Monitoring System** by replacing the old global SQLite connection and cursor approach with a safer connection-per-operation architecture.
+
+### 🚀 What I Changed
+
+* Removed the global SQLite `connection` and `cursor`.
+* Created a centralized `get_db_connection()` function in `db.py`.
+* Updated all database operations to create and close connections properly.
+* Added SQLite **WAL (Write-Ahead Logging)** mode.
+* Added a **30-second busy timeout** to handle temporary database contention.
+* Added proper `commit()`, `rollback()`, and `close()` handling.
+* Updated patient registration, search, update, delete, analytics, comparison, profile, and medical report operations.
+* Removed unnecessary direct SQLite connections from `app.py`.
+
+### 🗄️ New Database Architecture
+
+```text
+Flask Application
+       │
+       ▼
+     app.py
+       │
+       ▼
+get_db_connection()
+       │
+       ▼
+     db.py
+       │
+       ├── SQLite WAL Mode
+       ├── Busy Timeout
+       └── Short-lived Connections
+       │
+       ▼
+healthcare.db
+```
+
+### 🔐 Database Operation Flow
+
+```text
+Request
+   ↓
+Open SQLite Connection
+   ↓
+Execute Query
+   ↓
+Commit / Rollback
+   ↓
+Close Connection
+   ↓
+Response
+```
+
+### 🛠️ Technologies Used
+
+* Python
+* Flask
+* SQLite
+* Amazon S3
+* Pandas
+* Markdown
+* AI-based Medical Report Analysis
+
+### 📌 Why This Update Matters
+
+Previously, the application used a shared database connection and cursor across multiple routes. This could lead to SQLite errors such as:
+
+```text
+sqlite3.OperationalError: database is locked
+```
+
+The new architecture ensures that database connections are short-lived and properly closed after each operation, making the application more reliable and easier to maintain.
+
+### ✅ Current Project Capabilities
+
+* 🔐 Admin Login
+* 👨‍⚕️ Patient Registration
+* 📋 Patient Management
+* 🔎 Patient Search
+* ✏️ Patient Update
+* 🗑️ Patient Delete
+* 👤 Patient Profile
+* 📊 Patient Analytics
+* 📁 Medical Report Upload
+* ☁️ Amazon S3 Storage
+* 🤖 AI Medical Report Analysis
+* 📄 PDF / TXT / CSV / XLSX Support
+* 🖼️ Medical Image Analysis
+* 📑 AI Analysis Report Storage
+* 🔗 Patient Report Management
+* 🗄️ Improved SQLite Database Architecture
+
+### 🎯 Next Step
+
+The next improvement will be to connect the **medical reports directly with individual patient profiles**, so each patient's complete medical history and AI analysis can be viewed from one centralized dashboard.
+
+---
+
+**Project Status:** 🚧 Active Development
+
+**Latest Focus:** SQLite Database Reliability & Architecture
