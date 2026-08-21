@@ -486,3 +486,6 @@ The next improvement will be to connect the **medical reports directly with indi
 **Project Status:** 🚧 Active Development
 
 **Latest Focus:** SQLite Database Reliability & Architecture
+
+
+Day 14 :- Today i solve the app.py issue that the upload rout isnt working so i fix the route and make the event successfully run and customize the upload route 
