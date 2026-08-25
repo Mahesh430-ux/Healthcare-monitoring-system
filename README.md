@@ -489,3 +489,43 @@ The next improvement will be to connect the **medical reports directly with indi
 
 
 Day 14 :- Today i solve the app.py issue that the upload rout isnt working so i fix the route and make the event successfully run and customize the upload route 
+
+
+
+## 📅 Day 13
+
+### Today's Progress 🚀
+
+Today I focused on improving the Hospital Management System dashboard and fixing the report upload workflow.
+
+### ✅ Completed Today
+
+- Improved the hospital dashboard UI.
+- Worked on the **Upload Reports** navigation.
+- Fixed the routing/method issue related to report uploads.
+- Improved the dashboard action buttons.
+- Added/improved the **Compare Reports** action.
+- Worked on replacing text-based actions with cleaner icons.
+- Improved the overall dashboard toward a more professional hospital management interface.
+- Debugged Flask routes and frontend navigation between dashboard and report pages.
+
+### 🛠️ Technologies Used
+
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+- SQLite
+- Git & GitHub
+
+### 🎯 Today's Focus
+
+**Dashboard UI + Report Upload Routing + Report Comparison Interface**
+
+### 🔜 Next Step
+
+- Complete the Compare Reports functionality.
+- Improve report comparison UI.
+- Continue polishing the dashboard for a production-style hospital management system.
+- Continue testing all patient and report workflows.
