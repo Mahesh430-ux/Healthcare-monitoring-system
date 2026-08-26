@@ -529,3 +529,86 @@ Today I focused on improving the Hospital Management System dashboard and fixing
 - Improve report comparison UI.
 - Continue polishing the dashboard for a production-style hospital management system.
 - Continue testing all patient and report workflows.
+
+
+# Day 14- PostgreSQL Integration & Database Migration
+
+Today I upgraded my Healthcare Monitoring System from SQLite to PostgreSQL and prepared the database layer for containerized deployment.
+
+## Work Completed
+
+- Migrated the application database layer from SQLite to PostgreSQL.
+- Updated Flask database connectivity using `psycopg2-binary`.
+- Implemented environment-based database configuration using `.env`.
+- Added PostgreSQL configuration:
+  - Database: healthcare
+  - User: postgres
+  - Port: 5432
+- Created a PostgreSQL 16 Docker container.
+- Created `patients` and `medical_reports` tables in PostgreSQL.
+- Created a migration script to transfer existing SQLite data to PostgreSQL.
+- Preserved existing patient and medical report data during migration.
+- Updated SQL parameter syntax from SQLite `?` to PostgreSQL `%s`.
+- Added PostgreSQL connection testing using `check_db.py`.
+- Updated `requirements.txt` with PostgreSQL dependencies.
+- Added `.env` and sensitive configuration to `.gitignore`.
+- Kept SQLite database as a temporary backup until migration testing is completed.
+
+## Technology Used
+
+- Python
+- Flask
+- PostgreSQL
+- Docker
+- psycopg2
+- SQLite
+- AWS S3
+- Gemini AI
+- Pandas
+- Python-dotenv
+
+## Architecture
+
+Browser
+    ↓
+Flask Application
+    ↓
+PostgreSQL Database
+    ↓
+Docker
+
+Flask Application
+    ↓
+Amazon S3
+    ↓
+Medical Reports
+
+Flask Application
+    ↓
+Gemini AI
+    ↓
+Medical Report Analysis
+
+## DevOps Progress
+
+The project is now being prepared for the next stages:
+
+SQLite
+   ↓
+PostgreSQL
+   ↓
+Docker Compose
+   ↓
+Dockerized Flask Application
+   ↓
+AWS ECR
+   ↓
+GitHub Actions CI/CD
+   ↓
+Terraform
+   ↓
+Kubernetes / Amazon EKS
+
+## Key Learning
+
+Learned how to migrate an existing Flask application's database layer from SQLite to PostgreSQL while preserving existing application functionality and data.
