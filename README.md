@@ -612,3 +612,65 @@ Kubernetes / Amazon EKS
 ## Key Learning
 
 Learned how to migrate an existing Flask application's database layer from SQLite to PostgreSQL while preserving existing application functionality and data.
+
+
+Day 15 :- 
+# Healthcare Monitoring System - Daily Progress
+
+## Today's Progress
+
+Today I continued development and debugging of my Healthcare Monitoring System after migrating the application database to PostgreSQL.
+
+### Work Completed
+
+* Integrated the patient upload page with the patient-specific route.
+* Implemented the `/upload/<patient_id>` Flask route.
+* Connected the upload page with the selected patient's information.
+* Debugged PostgreSQL connectivity issues using `psycopg2`.
+* Identified that the Flask application is currently unable to connect to PostgreSQL on `localhost:5432`.
+* Investigated the Medical Reports module and identified an AWS authentication/configuration issue affecting Amazon S3 access.
+* Verified that the Patient List and Upload Reports modules depend on the PostgreSQL connection.
+* Separated the database connectivity issue from the AWS/S3 authentication issue for easier troubleshooting.
+
+### Current Architecture
+
+```text
+Flask Healthcare Application
+        │
+        ├── Patient Management
+        │        │
+        │        └── PostgreSQL
+        │
+        ├── Upload Reports
+        │        │
+        │        └── PostgreSQL
+        │
+        └── Medical Reports
+                 │
+                 └── Amazon S3
+```
+
+### Current Issues
+
+1. PostgreSQL is not currently reachable on `localhost:5432`.
+2. AWS authentication is not currently available to the application for loading medical reports from S3.
+
+### Next Steps
+
+* Start and verify the Dockerized PostgreSQL 16 container.
+* Verify the PostgreSQL connection from Flask.
+* Test Patient List and patient-specific Upload Reports.
+* Configure AWS credentials securely using environment variables or AWS credentials configuration.
+* Verify Amazon S3 medical report access.
+* Test the complete application workflow.
+* Continue toward Docker, CI/CD, AWS deployment, and production-level DevOps implementation.
+
+## DevOps Focus
+
+Today's work focused on troubleshooting the integration between:
+
+**Flask → PostgreSQL → AWS S3**
+
+This helped move the project from a basic Flask application toward a more production-oriented cloud and DevOps architecture.
+
+
