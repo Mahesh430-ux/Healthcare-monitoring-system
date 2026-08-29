@@ -674,3 +674,45 @@ Today's work focused on troubleshooting the integration between:
 This helped move the project from a basic Flask application toward a more production-oriented cloud and DevOps architecture.
 
 
+
+Day 16 :-
+
+🚀 Daily DevOps Progress 
+
+Project: Healthcare Monitoring System 🏥
+
+✅ Work Completed Today
+
+Continued working on the Healthcare Monitoring System.
+
+Worked on the DevOps workflow and deployment architecture.
+
+Reviewed the AWS integration requirements, especially authentication and access credentials.
+
+Identified that AWS Access Key and Secret Access Key are not currently available, so AWS deployment work can be continued after the AWS account/credentials are ready.
+
+Planned the next steps for integrating the application with AWS services without blocking the existing development workflow.
+
+Continued preparing the project for Docker, CI/CD, AWS, and production deployment.
+
+
+🛠️ Technologies
+
+Python Flask PostgreSQL Docker AWS Git GitHub CI/CD
+
+📌 Next Steps
+
+Configure AWS credentials securely using IAM.
+
+Connect the application with required AWS services.
+
+Build the Docker image.
+
+Create the CI/CD pipeline.
+
+Deploy the application to AWS.
+
+Add monitoring and logging using CloudWatch.
+
+
+
