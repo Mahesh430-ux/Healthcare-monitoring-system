@@ -716,3 +716,38 @@ Add monitoring and logging using CloudWatch.
 
 
 
+# 🏥 Healthcare Monitoring System – Daily Progress
+
+
+## ✅ Work Completed Today :- 
+* Continued development of the **Healthcare Monitoring System**.
+* Worked on integrating the **PostgreSQL database** with the Flask application.
+* Verified the **SQLite → PostgreSQL migration** and database connectivity.
+* Worked on the patient management and medical report workflow.
+* Checked and fixed issues related to **patient data and report handling**.
+* Continued preparing the application for the next stage of the **DevOps pipeline**.
+
+### 🛠️ Technologies Used :- 
+* Python
+* Flask
+* PostgreSQL
+* Docker
+* HTML/CSS
+* Git & GitHub
+
+### 🚀 Next Steps :- 
+* Complete remaining application bugs.
+* Finalize PostgreSQL integration.
+* Dockerize the complete application.
+* Create CI/CD pipeline using GitHub Actions/Jenkins.
+* Provision infrastructure using Terraform.
+* Deploy the application on AWS.
+* Continue toward Kubernetes/EKS deployment.
+
+**Status:** 🟢 Project development and DevOps integration in progress.
+
+
+
+
+
+
