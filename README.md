@@ -824,3 +824,54 @@ Kubernetes / EKS
 
 
 
+
+
+## Day's Progress - Healthcare Monitoring System
+
+Today I continued development and integration of my Healthcare Monitoring System built with Flask.
+
+### ✅ Work Completed
+
+- Updated the Flask application (`app.py`)
+- Integrated PostgreSQL database connectivity
+- Improved database connection handling using `db.py`
+- Continued integration of patient registration and patient records
+- Worked on the medical report upload functionality
+- Integrated report analysis functionality with the AI module
+- Improved the overall application structure and backend integration
+- Verified the application workflow and fixed issues encountered during development
+
+### 🛠️ Technologies Used
+
+- Python
+- Flask
+- PostgreSQL
+- Docker
+- AWS
+- Boto3
+- Google Gemini AI
+- Pandas
+- Markdown
+- psycopg2
+
+### 🔄 Current Architecture
+
+User → Flask Application → PostgreSQL Database  
+                    ↓  
+              Medical Reports  
+                    ↓  
+                 AI Analysis  
+                    ↓  
+             Results Dashboard
+
+### 🎯 Next Steps
+
+- Complete AWS S3 integration
+- Configure Lambda-based report processing
+- Improve AI report analysis
+- Dockerize the complete application
+- Create CI/CD pipeline
+- Deploy the application on AWS
+- Add monitoring using CloudWatch
+
+
