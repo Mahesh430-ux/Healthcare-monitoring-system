@@ -875,3 +875,93 @@ User → Flask Application → PostgreSQL Database
 - Add monitoring using CloudWatch
 
 
+
+
+Here’s a clean GitHub-ready update for what you worked on today in your Healthcare Monitoring System:
+
+🏥 Healthcare Monitoring System - Daily Progress
+
+Date: 4 September 2026
+
+✅ Work Completed Today
+
+Continued development of the Healthcare Monitoring System.
+
+Reviewed and organized the existing Flask application structure.
+
+Worked on the integration between the Flask backend and PostgreSQL database.
+
+Continued preparing the project for the AWS + DevOps deployment workflow.
+
+Reviewed the application components that will be used in the upcoming containerization and deployment stages.
+
+Worked toward connecting the application with the planned Docker, Terraform, CI/CD, and AWS infrastructure.
+
+
+🛠️ Technologies Used
+
+Python
+
+Flask
+
+PostgreSQL
+
+Docker
+
+AWS
+
+Terraform
+
+Git & GitHub
+
+
+🔄 Current Architecture
+
+User
+ ↓
+Flask Healthcare Application
+ ↓
+PostgreSQL Database
+ ↓
+AWS Services
+ ↓
+Docker
+ ↓
+Terraform
+ ↓
+CI/CD Pipeline
+ ↓
+Cloud Deployment
+
+🎯 Next Steps
+
+Complete and stabilize the PostgreSQL integration.
+
+Dockerize the Flask application.
+
+Create a proper Dockerfile and docker-compose.yml.
+
+Configure AWS services required for deployment.
+
+Start writing Terraform infrastructure.
+
+Build the CI/CD pipeline using GitHub Actions.
+
+Deploy the application to AWS.
+
+
+📌 GitHub Commit Message
+
+docs: updated healthcare monitoring system progress and DevOps roadmap
+
+📈 Project Status
+
+Application: 🟢 In Development
+Database: 🟢 PostgreSQL
+Docker: 🟡 Next Phase
+AWS: 🟡 Integration Phase
+Terraform: 🟡 Planned
+CI/CD: 🟡 Planned
+Kubernetes: 🔵 Future Phase
+
+
