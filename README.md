@@ -965,3 +965,74 @@ CI/CD: 🟡 Planned
 Kubernetes: 🔵 Future Phase
 
 
+
+
+## 🚀 Day  — Healthcare Monitoring System
+
+### ✅ Today's Work
+
+- Worked on the Flask-based Healthcare Monitoring System.
+- Integrated the application with the PostgreSQL database.
+- Continued working on patient registration and patient data management.
+- Worked on report upload functionality.
+- Improved database connectivity using `psycopg2`.
+- Debugged PostgreSQL connection and application-level database issues.
+- Continued integrating AI-based medical report/image analysis into the application.
+- Worked on the overall backend flow between Flask, PostgreSQL, AWS services, and the AI module.
+- Reviewed and improved the project structure to make it more suitable for Docker, CI/CD, and cloud deployment.
+
+### 🛠️ Technologies Used
+
+- Python
+- Flask
+- PostgreSQL
+- Psycopg2
+- AWS
+- Amazon S3
+- AWS Lambda
+- AI/GenAI
+- HTML/CSS
+- Git & GitHub
+- Docker
+
+### 🔄 Current Architecture
+
+User
+ ↓
+Flask Application
+ ↓
+PostgreSQL
+ ↓
+Report/Image Upload
+ ↓
+Amazon S3
+ ↓
+AWS Lambda
+ ↓
+AI Analysis
+ ↓
+Healthcare Dashboard
+
+### 🎯 Next Steps
+
+- Complete PostgreSQL integration and remove remaining database errors.
+- Finalize S3 upload workflow.
+- Complete Lambda + AI integration.
+- Improve dashboard and patient profile UI.
+- Dockerize the complete application.
+- Create Terraform infrastructure.
+- Build CI/CD pipeline using GitHub Actions.
+- Deploy the application on AWS.
+
+### 📈 Learning
+
+Today I strengthened my practical understanding of:
+
+- Flask backend development
+- PostgreSQL database integration
+- AWS cloud services
+- AI integration
+- Debugging production-style application issues
+- Preparing applications for Docker and DevOps deployment
+
+> **Progress is not about building everything in one day. It is about making the system better every day.**
